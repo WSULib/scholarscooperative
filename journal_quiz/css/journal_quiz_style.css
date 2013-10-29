@@ -1,0 +1,141 @@
+html {
+	height:100%;
+}
+
+body {
+	height:100%;
+	background:url('../img/quiz_aud.jpg'); /*http://www.flickr.com/photos/batmoo/3734837951/*/
+	/*font-family: 'Roboto',sans-serif;*/	
+}
+
+#overlay {
+	height:100%;
+	width:100%;
+	background-color:rgba(255,255,255,.3);
+}
+
+#quiz{
+	width:75%;
+	/*height:90%;*/
+	/*margin:auto;*/
+	margin-top:50px;
+	margin-bottom:0px;	
+	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	clear:both;
+	/*visibility:hidden;*/
+	opacity:0;
+	background-color:white;
+	border-radius:10px;
+
+}
+
+.query_headings {
+	float:left;
+	width:100%;
+	text-align:center;
+	background-color:rgba(255,255,255,1);		
+}
+
+.top {
+	border-radius:10px 10px 0px 0px;
+}
+
+.bottom {
+	border-radius:0px 0px 10px 10px;
+}
+
+.top h1{
+	font-weight:bold;
+}
+.bottom h1{
+	font-weight:bold;
+}
+
+#left_pane{
+	position:relative;
+	float:left;
+	margin:auto;
+	width:50%;
+	/*height:80%;*/
+	background-color:rgba(255,255,255,0);
+	border: 10px solid rgba(255,255,255,1);		
+}
+
+#left_pane:hover {
+	border: 10px solid rgba(255,212,120,1);	
+}
+
+#right_pane{
+	position:relative;
+	float:right;
+	margin:auto;
+	width:50%;
+	/*height:80%;*/
+	background-color:rgba(255,255,255,0);
+	border: 10px solid rgba(255,255,255,1);	
+}
+
+#right_pane:hover {
+	border: 10px solid rgba(255,212,120,1);	
+}
+
+#footer{		
+	padding-top:20px;
+	padding-bottom:20px;
+	color:white;	
+	opacity:0;
+}
+
+#footer address a, #footer a {
+	color: white;
+}
+
+.guess img {
+	/*height:100%;*/
+	width:100%;
+}
+
+/*Results*/
+#correctResults{
+	display:none;
+	border: 10px solid rgba(0,191,25,1);
+}
+
+#wrongResults {
+	display:none;
+	border: 10px solid rgba(252,65,65,1);
+}
+
+.results {	
+	float:left;
+	text-align:center;
+	width:100%;	
+	background-color:rgba(255,255,255,1);
+	padding:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
