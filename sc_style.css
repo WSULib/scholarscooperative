@@ -45,10 +45,10 @@
 	}
 
 #services {
-  padding: 40px 0 10px 0px;
-  font-family: 'Roboto',sans-serif;
+  padding: 40px 0 0 0;
   font-weight: 300;
   font-size: 19px;
+
   text-align: center;
 }
 
@@ -56,32 +56,74 @@
   padding: 20px 0 50px;
 }
 
-#highlights h3 {
-	font-size: 38px;
+#highlights h4 {
+  	color: #062722;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	font-size: 44px;
+	padding: 0 0 5px 0;
 	text-align: center;
 }
 
-#highlights h4 {
-  	color: #408C80;
-	font-family: 'Titillium Web',sans-serif;
-	font-size: 34px;
-	padding-left:0px;
-	padding-bottom:20px;
+.featured p {
+	padding: 0 40px;
+	text-align: justify;
 }
 
-.icon-users-2 {
-	color: #333;
-	padding-right: 5px;
+.icons {
+	color: #0c5449;
+	font-size: 120px;
+	display: block;
+	text-align: center;
+	opacity: 0.85;
+	margin-top: -20px;
 }
 
-.icon-graduation-cap-1, .icon-book-open {
-	color: #333;
-}
-  
-#highlights ul li {
-  line-height: 30px;
-  font-family: 'Roboto',sans-serif;
+.icon-publishing {
+	margin-left: 10px;
 
+}
+
+.icon-inform {
+	margin-left: 10px;
+}
+
+.icon-consult {
+	margin-left: -20px;
+}
+
+.deets {
+	padding: 0 10px 20px 10px;
+}
+
+#highlights h3 {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: #148f7d;
+}
+
+.deets .icon-checkbox {
+	color: #f7f1e3;
+	font-size: 80px;
+	float: left;
+	padding: 15px 4px;
+}
+
+.deets p {
+	font-size: 14px;
+	line-height: 1.42em;
+	padding-left: 5px;
+	padding-bottom: 40px;
+	width: 90%;
+	text-align: left;
+	word-spacing: 2px;
+}
+
+.deets hr {
+	width: 90%;
+	margin: 0 auto;
+	padding: 5px 0;
 }
 
 #news {
@@ -89,20 +131,24 @@
   background: #fbfbf6;
   color: #434343;
   display: block;
-  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 20px;
 }
 
-#news h4 a {
-  	color: #3d3d3d;
-	font-size: 12px;
+#news h4 {
+  	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
 	font-weight: bold;
 	text-transform: uppercase;
-	text-decoration: none;
 	letter-spacing: 2px;
 	display: block;
+	text-align: left;
+}
+
+#news h4 a {
+	color: #3d3d3d;
+	text-decoration: none;
 }
 
 .date {
@@ -118,8 +164,10 @@
 	color: #408C80;
 	font-family: 'Titillium Web',sans-serif;
 	font-size: 22px;
+	font-weight: 600;
 	line-height: 1.2em;
 	display: block;
+	margin-bottom: -8px;
 }
 
 #news i {
@@ -131,14 +179,13 @@
 }
 
 #news p.more {
-	padding: 20px 0;
+	padding: 15px 0;
 }
 
 #news p {
 	padding: 1px 0;
 	color: #434343;
 	display: block;
-	font-family: 'Roboto',sans-serif;
 	font-weight: 300;
 	font-size: 15px;
 	line-height: 20px;
@@ -152,7 +199,7 @@
 #contacts h4 {
 	padding-bottom: 0px;
 	text-transform: uppercase;
-	font-size: 18px;
+	font-size: 17px;
 	font-weight: bold;
 	letter-spacing: 2px;
 	display: block;
@@ -160,7 +207,7 @@
 
 #contacts p.scemail {
 	color: #408C80;
-	font-size: 21px;
+	font-size: 20px;
 }
 
 .title {
@@ -184,7 +231,7 @@
 	color: #408C80;
 	font-family: 'Titillium Web',sans-serif;
 	font-size: 20px;
-	font-weight: bold;
+	font-weight: 600;
 	line-height: 20px;
 }
 
@@ -198,7 +245,6 @@
 }
 
 #contacts p {
-	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 13px;
 	margin: 0 0 3px;
@@ -218,7 +264,6 @@ p.digits {
   font-size: 11px;
   color: #666666;
   text-align: center;
-//  background: #f8f8f8;
 }
 
 #footer img {
@@ -468,11 +513,15 @@ p.digits {
 	}
 
 	#highlights h4 {
-	  	color: #408C80;
 		font-family: 'Titillium Web',sans-serif;
-		font-size: 26px;
+		font-size: 44px;
 		padding-left:0px;
 		padding-bottom:20px;
+	}
+
+	#highlights p {
+		font-size: 14px;
+		text-align: center;
 	}
 
 	#services {

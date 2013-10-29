@@ -298,12 +298,16 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
- // font-family: 'Titillium Web', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: 300;
+text-transform: normal;
+letter-spacing: normal;
+line-height: 1.43em;
+  /*letter-spacing: 0.01em;
   font-size: 14px;
-  line-height: 1.428571429;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #ffffff;*/
 }
 
 input,
@@ -429,7 +433,6 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
 }
@@ -477,7 +480,7 @@ h2,
 
 h3,
 .h3 {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 h4,
@@ -1588,7 +1591,7 @@ fieldset[disabled] .btn {
 
 .btn-default {
   color: #ffffff;
-  background-color: #408C80;
+  background-color: #0c5449;
  // border-color: #474949;
 }
 
@@ -1596,7 +1599,7 @@ fieldset[disabled] .btn {
 .btn-default:focus,
 .btn-default:active,
 .btn-default.active {
-  background-color: #80B399;
+  background-color: #128170;
  // border-color: #2e2f2f;
 }
 

@@ -1,24 +1,6 @@
 Font license info
 
 
-## Font Awesome
-
-   Copyright (C) 2012 by Dave Gandy
-
-   Author:    Dave Gandy
-   License:   SIL ()
-   Homepage:  http://fortawesome.github.com/Font-Awesome/
-
-
-## Modern Pictograms
-
-   Copyright (c) 2012 by John Caserta. All rights reserved.
-
-   Author:    John Caserta
-   License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://thedesignoffice.org/project/modern-pictograms/
-
-
 ## Iconic
 
    Copyright (C) 2012 by P.J. Onori
@@ -26,15 +8,6 @@ Font license info
    Author:    P.J. Onori
    License:   SIL (http://scripts.sil.org/OFL)
    Homepage:  http://somerandomdude.com/work/iconic/
-
-
-## Linecons
-
-   Copyright (C) 2013 by Designmodo
-
-   Author:    Designmodo for Smashing Magazine
-   License:   CC BY ()
-   Homepage:  http://designmodo.com/linecons-free/
 
 
 ## Typicons
@@ -46,13 +19,22 @@ Font license info
    Homepage:  http://typicons.com/
 
 
-## Elusive
+## MFG Labs
 
-   Copyright (C) 2013 by Aristeides Stathopoulos
+   Copyright (C) 2012 by Daniel Bruce
 
-   Author:    Aristeides Stathopoulos
+   Author:    MFG Labs
    License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://aristeides.com/
+   Homepage:  http://www.mfglabs.com/
+
+
+## Font Awesome
+
+   Copyright (C) 2012 by Dave Gandy
+
+   Author:    Dave Gandy
+   License:   SIL ()
+   Homepage:  http://fortawesome.github.com/Font-Awesome/
 
 
 ## Entypo
@@ -62,23 +44,5 @@ Font license info
    Author:    Daniel Bruce
    License:   CC BY-SA (http://creativecommons.org/licenses/by-sa/2.0/)
    Homepage:  http://www.entypo.com
-
-
-## Maki
-
-   Copyright (C) Mapbox, LCC
-
-   Author:    Mapbox
-   License:   BSD (https://github.com/mapbox/maki/blob/gh-pages/LICENSE.txt)
-   Homepage:  http://mapbox.com/maki/
-
-
-## MFG Labs
-
-   Copyright (C) 2012 by Daniel Bruce
-
-   Author:    MFG Labs
-   License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://www.mfglabs.com/
 
 
