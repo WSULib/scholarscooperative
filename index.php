@@ -100,113 +100,84 @@
       <div id="highlights">
         <div class="container">
           <div class="row featured">
-            <div class="col-sm-4 col-lg-4">
+            <div class="col-sm-4 col-lg-4 space">
               <h4><i class="icon-inform icons"></i> Inform</h4>
-              <p>SC provides programs, workshops and discussions on topics relating to your scholarly publishing activities, crafted for a range of audiences.</p>
+              <p class="about">SC provides programs, workshops and discussions on topics relating to your scholarly publishing activities, crafted for a range of audiences.</p>
+              <div class="deets">
+                <i class="icon-checkbox"></i>
+                <h3>Scholarly Communications</h3>
+                <p>The state of scholarly communication today&#8212;what’s working, what’s not, where do we go from here?</p>
+              </div>
+              <div class="deets">
+                <i class="icon-checkbox"></i>
+                <h3>Open Access</h3>
+                <p>What open access is, how it benefits scholars, how you can participate without sacrificing impact?</p>
+              </div>
+              <div class="deets">
+                <i class="icon-checkbox"></i> 
+                <h3>Digital Commons@Wayne State</h3>
+                <p>Our institutional repository and what it means to faculty at Wayne State University.</p>
+              </div>
+              <div class="deets">
+                <i class="icon-checkbox"></i> 
+                <h3>Copyright</h3>
+                <p>How does copyright impact your publication and use of scholarship?</p>
+              </div>
+              <div class="deets">
+                <i class="icon-checkbox"></i> 
+                <h3>Authors Rights</h3>
+                <p>What rights can you retain when you publish, and what rights can you regain over already published material?</p>
+              </div>
             </div>
-            <div class="col-sm-4 col-lg-4">
+            <div class="col-sm-4 col-lg-4 space">
               <h4><i class="icon-consult icons"></i> Consult</h4>
-              <p>SC gives individual consults on a range of topics relating to publishing, teaching and scholarship.</p>
+              <p class="consult about">SC gives individual consults on a range of topics relating to publishing, teaching and scholarship.</p>
+              <div class="deets">
+                <i class="icon-checkbox"></i> 
+                <h3>CV Review</h3>
+                <p>See which of your citations can already be made open access; link your CV to your publications.</p>
+              </div>
+              <div class="deets">
+                <i class="icon-checkbox"></i> 
+                <h3>Copyright Issues</h3>
+                <p>Answer specific questions and apply copyright best practices to your publication and teaching.</p>
+              </div>
+              <div class="deets">
+                <i class="icon-checkbox"></i> 
+                <h3>Course design</h3>
+                <p>Learn how to incorporate sustainable and copyright-compliant materials in your courses.</p>
+              </div>   
+              <div class="deets">
+                <i class="icon-checkbox"></i>
+                <h3>Becoming Open Access</h3>
+                <p>Include open access in your publishing workflow, making your citations more findable and more likely to be cited.</p>
+              </div>
             </div>
             <div class="col-sm-4 col-lg-4">
               <h4><i class="icon-publish icons"></i> Publish</h4>
-              <p>SC offers a number of publishing support services to help you disseminate your scholarship more broadly and effectively.</p>
+              <p class="about publish">SC offers a number of publishing support services to help you disseminate your scholarship more broadly and effectively.</p>
+              <div class="deets">
+                <i class="icon-checkbox"></i> 
+                <h3>Journal Publication</h3>
+                <p>Preparation, hosting, and online peer-review management services for open access journals in any discipline.</p>
+              </div>
+              <div class="deets">
+                <i class="icon-checkbox"></i> 
+                <h3>Digitization</h3>
+                <p>Convert print publications and make them available and searchable online.</p>
+              </div>
+              <div class="deets">
+                <i class="icon-checkbox"></i> 
+                <h3>Self- or Mediated Archiving</h3>
+                <p>Gather your materials together online, or let us do it for you.</p>
+              </div>       
+              <div class="deets">
+                <i class="icon-checkbox"></i> 
+                <h3>Post-print formatting</h3>
+                <p>Make your peer-reviewed final accepted manuscripts print quality before archiving; tie use to the final published citation.</p>
+              </div>
             </div>
           </div>
-
-          <hr/>
-
-          <div class="row">
-            <div class="col-lg-6 deets">
-              <i class="icon-checkbox"></i>
-              <h3>Scholarly Communications</h3>
-              <p>The state of scholarly communication today&#8212;what’s working, what’s not, where do we go from here?</p>
-              <hr/>
-            </div>
-            <div class="col-lg-6 deets">
-              <i class="icon-checkbox"></i>
-              <h3>Open Access</h3>
-              <p>What open access is, how it benefits scholars, how you can participate without sacrificing impact?</p>
-              <hr/>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-6 deets">
-              <i class="icon-checkbox"></i> 
-              <h3>Digital Collections@Wayne State University</h3>
-              <p>Our institutional repository and what it means to faculty at Wayne State University.</p>
-              <hr/>
-            </div>
-            <div class="col-lg-6 deets">
-              <i class="icon-checkbox"></i> 
-              <h3>Copyright</h3>
-              <p>How does copyright impact your publication and use of scholarship?</p>
-              <hr/>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-6 deets">
-              <i class="icon-checkbox"></i> 
-              <h3>Authors Rights</h3>
-              <p>What rights can you retain when you publish, and what rights can you regain over already published material?</p>
-              <hr/>
-            </div>
-            <div class="col-lg-6 deets">
-              <i class="icon-checkbox"></i> 
-              <h3>CV Review</h3>
-              <p>See which of your citations can already be made open access; link your CV to your publications.</p>
-              <hr/>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-6 deets">
-              <i class="icon-checkbox"></i> 
-              <h3>Copyright Issues</h3>
-              <p>Answer specific questions and apply copyright best practices to your publication and teaching.</p>
-              <hr/>
-            </div>
-            <div class="col-lg-6 deets">
-              <i class="icon-checkbox"></i> 
-              <h3>Course design</h3>
-              <p>Learn how to incorporate sustainable and copyright-compliant materials in your courses.</p>
-              <hr/>
-            </div>
-          </div>
-          <div class="row">        
-            <div class="col-lg-6 deets">
-              <i class="icon-checkbox"></i>
-              <h3>Becoming Open Access</h3>
-              <p>Include open access in your publishing workflow, making your citations more findable and more likely to be cited.</p>
-              <hr/>
-            </div>
-            <div class="col-lg-6 deets">
-              <i class="icon-checkbox"></i> 
-              <h3>Journal Publication</h3>
-              <p>Preparation, hosting, and online peer-review management services for open access journals in any discipline.</p>
-              <hr/>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-6 deets">
-              <i class="icon-checkbox"></i> 
-              <h3>Digitization</h3>
-              <p>Convert print publications and make them available and searchable online.</p>
-              <hr/>
-            </div>
-            <div class="col-lg-6 deets">
-              <i class="icon-checkbox"></i> 
-              <h3>Self- or Mediated Archiving</h3>
-              <p>Gather your materials together online, or let us do it for you.</p>
-              <hr/>
-            </div>       
-          </div>
-          <div class="row">
-            <div class="col-lg-6 deets">
-              <i class="icon-checkbox"></i> 
-              <h3>Post-print formatting</h3>
-              <p>Make your peer-reviewed final accepted manuscripts print quality before archiving; tie use to the final published citation.</p>
-            </div>
-          </div>      
         </div>
       </div>
 
@@ -263,7 +234,7 @@
         </div>
 
         <div class="container">
-          <div class="col-12 col-sm-6 col-lg-6 pull-left">
+          <div class="col-12 col-sm-6 col-lg-6 pull-left contact-padding-top">
             <form method="post" action="contactengine.php">
               <fieldset>
                 <div class="form-group">
@@ -272,14 +243,14 @@
                 </div>
                 <div class="form-group">
                   <label for="Email" class="pull-left">Email</label>
-                  <input type="text" class="form-control" name="Email" id="Email" placeholder="Enter your email">
+                  <input type="email" class="form-control" name="Email" id="Email" placeholder="Enter your email">
                 </div>
                 <div class="form-group">
                   <label for="Tel" class="pull-left">Phone</label>
-                  <input type="text" class="form-control" name="Tel" id="Tel" placeholder="Enter your phone number">
+                  <input type="tel" class="form-control" name="Tel" id="Tel" placeholder="Enter your phone number">
                 </div>            
           </div>  
-          <div class="col-12 col-sm-6 col-lg-6 pull-right">
+          <div class="col-12 col-sm-6 col-lg-6 pull-right contact-padding-bottom">
                 <div class="form-group">
                   <label for="Message" class="pull-left">Message</label>
                   <textarea name="Message" id="Message" class="form-control" rows="9" placeholder="Enter your message"></textarea>
@@ -355,8 +326,8 @@
       <div id="footer">
         <div class="container">
           <div class="footer">
-            <address class="vcard" id="wsu-copyright"> <a class="url fn org" href="http://wayne.edu/">Wayne State University</a> <span class="adr"> <span class="locality">Detroit</span>, <span class="region">MI</span> <span class="postal-code">48202</span> <span class="country-name">United States</span></span> &copy; 2013 </address>
-            <span id="wsu-policy"><a href="http://wayne.edu/policies/" title="View the Privacy and University Policies" rel="license">Privacy and University Policies</a></span>
+            <address class="vcard" id="wsu-copyright"> <a class="url fn org" href="http://wayne.edu/">Wayne State University</a> <span class="adr"> <span class="locality">Detroit</span>, <span class="region">MI</span> <span class="postal-code">48202</span> <span class="country-name">United States</span></span></address>
+            <span id="wsu-policy"> &copy; 2013 <a href="http://wayne.edu/policies/" title="View the Privacy and University Policies" rel="license">Privacy and University Policies</a></span>
           </div>
         </div>
       </div>

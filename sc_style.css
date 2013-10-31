@@ -15,8 +15,8 @@
 #header .navbar .pull-right a {
 	color: #ffffff;
 	font-size: 18px;
-	font-weight: bold;
-	//letter-spacing: 2px;
+	font-weight: 500;
+	letter-spacing: 1px;
 	line-height: 20px;
 	padding-top: 0px;
 }
@@ -26,9 +26,8 @@
 }
 
 #header .navbar-brand {
-	font-weight: bold;
 	font-size: 20px;
-	//letter-spacing: 2px;
+	letter-spacing: 0;
 }
 
 #header .navbar-brand strong {
@@ -65,8 +64,8 @@
 	text-align: center;
 }
 
-.featured p {
-	padding: 0 40px;
+.featured p.about {
+	padding: 0 30px;
 	text-align: justify;
 }
 
@@ -75,7 +74,7 @@
 	font-size: 120px;
 	display: block;
 	text-align: center;
-	opacity: 0.85;
+	opacity: 0.9;
 	margin-top: -20px;
 }
 
@@ -93,7 +92,8 @@
 }
 
 .deets {
-	padding: 0 10px 20px 10px;
+	//padding: 0 10px 20px 10px;
+	padding: 0 30px;
 }
 
 #highlights h3 {
@@ -104,18 +104,17 @@
 }
 
 .deets .icon-checkbox {
-	color: #f7f1e3;
-	font-size: 80px;
+	color: #efe4c9;
+	font-size: 20px;
 	float: left;
-	padding: 15px 4px;
+	//padding: 15px 4px;
 }
 
 .deets p {
 	font-size: 14px;
 	line-height: 1.42em;
 	padding-left: 5px;
-	padding-bottom: 40px;
-	width: 90%;
+	padding-bottom: 10px;
 	text-align: left;
 	word-spacing: 2px;
 }
@@ -296,15 +295,62 @@ p.digits {
 	}
 
 	#highlights {
-		padding: 20px 0;
+		padding: 0;
 	}
 
-	#highlights .col-sm-4 {
-		padding-bottom: 20px;
+	#highlights .featured h4 i {
+		float: left;
+		font-size: 40px;
+		padding-left: 20px;
 	}
 
 	#highlights h4 {
-		font-size: 26px;
+		text-align: left;
+	}
+
+	#highlights h3 {
+		font-size: 16px;
+	}
+	
+	#highlights .featured p.about {
+		font-size: 16px;
+		text-align: left;
+		padding: 0 5px;
+	}
+
+	.featured .space{
+		clear: both;
+		padding-bottom: 30px; 
+	}
+
+	.icon-inform {
+		margin: 0 10px 0 -20px;
+		padding: 0;
+	}
+
+	.icon-consult {
+		margin: 0 10px 0 -20px;
+		padding: 0;
+	}
+
+	.icon-publish {
+		margin: 0 10px 0 -20px;
+		padding: 0;
+	}
+
+	.deets .icon-checkbox {
+		font-size: 18px;
+		padding: 0;
+		margin-top: -3px;
+	}
+
+	.deets {
+		padding: 0;
+	}
+
+	.deets p {
+		width: 100%;
+		padding-bottom: 20px;
 	}
 
 	.rightborder {
@@ -371,6 +417,10 @@ p.digits {
 		padding-top: 40px;
 		font-size: 24px;
 	}
+
+	#wsu-policy {
+		display: block;
+	}
 }
 
 /* SAMSUNG GALAXY */
@@ -393,14 +443,66 @@ p.digits {
 		padding: 20px 0;
 	}
 
-	#highlights .col-sm-4 {
-		padding-bottom: 20px;
+	#highlights .featured h4 i {
+		float: left;
+		font-size: 145px;
+		padding-left: 20px;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	#highlights h3 {
+		font-size: 30px;
+	}
+
+	#highlights h4 {
+		text-align: left;
+	}
+	
+	#highlights .featured p.about {
+		font-size: 18px;
+		text-align: left;
+		padding: 0 15px;
+	}
+
+	#highlights .featured p.consult {
+		margin-bottom: 60px;
+	}
+
+	#highlights .featured p.publish {
+		margin-bottom: 40px;
+	}
+
+	.featured .col-sm-4 {
+		clear: both;
+		padding-bottom: 40px;
+	}
+
+	.icons {
+		padding-bottom: 40px;
+	}
+
+	.icon-consult {
+		padding-right: 30px;
+	}
+
+	.icon-publish {
+		padding-right: 10px;
+		padding-top: 10px;
+	}
+
+	.deets .icon-checkbox {
+		padding: 0;
+		font-size: 35px;
+	}
+
+	.deets p {
+		font-size: 18px;
 	}
 
 	.rightborder {
 		border: none;
 	}
-
 
 	#news h4 a {
 	font-size: 14px;
@@ -430,13 +532,21 @@ p.digits {
 	}
 
 	#contacts .col-12 {
-		font-size: 30px;
+		font-size: 18px;
 		padding: 40px 0;
 	}
 
 
 	#contacts .col-12 h5 {
 		font-size: 30px;
+	}
+
+	#contacts .contact-padding-top {
+		padding: 0;
+	}
+
+	#contacts .contact-padding-bottom {
+		padding-top: 0;
 	}
 
 	#contacts .team {
@@ -468,15 +578,33 @@ p.digits {
 		padding: 20px 0 30px;
 	}
 
+	#highlights h3 {
+		font-size: 14px;
+	}
+
 	#highlights h4 {
-		font-size: 21px;
+		font-size: 42px;
 		padding: 0 0 10px;
 	}
 
-	#highlights ul {
-		font-size: 12px;
+	#highlights .featured p.about {
+		font-size: 13px;
+		line-height: 16px;
+		text-align: center;
+		padding: 0 10px;
 	}
 
+	.deets {
+		padding: 0 10px;
+	}
+
+	.deets p {
+		font-size: 13px;
+	}
+
+	.deets .icon-checkbox {
+		display: none;
+	}
 
 	#news h4 a {
 	font-size: 14px;
@@ -516,12 +644,26 @@ p.digits {
 		font-family: 'Titillium Web',sans-serif;
 		font-size: 44px;
 		padding-left:0px;
-		padding-bottom:20px;
+		padding-bottom:5px;
 	}
 
-	#highlights p {
+	#highlights .featured p.about {
 		font-size: 14px;
 		text-align: center;
+		padding-bottom: 5px;
+	}
+
+	.deets .icon-checkbox {
+		font-size: 16px;
+		line-height: 14px;
+	}
+
+	.deets p {
+		font-size: 12px;
+	}
+
+	#highlights h3 {
+		font-size: 15px;
 	}
 
 	#services {
