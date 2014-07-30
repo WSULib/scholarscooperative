@@ -14,18 +14,6 @@
     <link rel="stylesheet" href="fontello/css/fontello.css">
     <link rel="stylesheet" href="fontello/css/animation.css"><!--[if IE 7]>
     <link rel="stylesheet" href="css/fontello-ie7.css"><![endif]-->
-    <script>
-      function toggleCodes(on) {
-        var obj = document.getElementById('icons');
-        
-        if (on) {
-          obj.className += ' codesOn';
-        } else {
-          obj.className = obj.className.replace(' codesOn', '');
-        }
-      }
-      
-    </script>
 
     <!-- Le fonts -->
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,900' rel='stylesheet' type='text/css'>
@@ -42,6 +30,35 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="bootstrap/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="bootstrap/ico/apple-touch-icon-57-precomposed.png">
     <link rel="shortcut icon" href="bootstrap/ico/favicon.png">
+
+    <script>
+      function toggleCodes(on) {
+        var obj = document.getElementById('icons');
+        
+        if (on) {
+          obj.className += ' codesOn';
+        } else {
+          obj.className = obj.className.replace(' codesOn', '');
+        }
+      }
+      
+    </script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+
+      (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://cgi.lib.wayne.edu/stats/piwik/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "20"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
 
   </head>
 
@@ -248,7 +265,8 @@
                 <div class="form-group">
                   <label for="Tel" class="pull-left">Phone</label>
                   <input type="tel" class="form-control" name="Tel" id="Tel" placeholder="Enter your phone number">
-                </div>            
+                </div>
+                <input id="Website" name="Website" type="text" value=""  />            
           </div>  
           <div class="col-12 col-sm-6 col-lg-6 pull-right contact-padding-bottom">
                 <div class="form-group">
